@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>CODAEMON</title>
+</head>
+<body>
+
+
+<!-- Dashboard Section -->
+<section class="p-2 bg-teal text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1><i class="fa fa-chart-bar"></i> DashBoard</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="myProgress" style="width: 100%; background-color: #ddd;">
+<div id="myBar" style="  width: 0%;height:3px;" class="progress-bar-danger" role="progressbar"></div>
+</div>
+
+<!-- Buttons Section -->
+<section class="bg-light p-3 animated bounceInLeft">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animated swing ">
+               <input type="text" id="firstName"  placeholder="First Name" class="form-control">
+            </div>
+            <div class="col-md-4 animated swing ">
+               <input type="text" id="lastName"  placeholder="First Name" class="form-control">
+            </div>
+            <div class="col-md-4 animated swing">
+              <a href="#" class="btn btn-warning btn-block" data-toggle="modal" id="retrieve-resources">
+                    <i class="fa fa-search" aria-hidden="true"> </i> Search </a>
+            </div>
+        </div>
+        <div class="progress md-progress" style="height: 20px">
+    <div class="progress-bar" role="progressbar" style="width: 0%; height: 20px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+</section>
+
+
+
+<!-- Main Content Section -->
+<section >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 animated flipInY">
+                <div class="card">
+
+                    <div class="card-header bg-secondary text-white">
+                        <h2>Details</h2>
+                    </div >
+                    
+                    
+                    <div class="table" id="display-resources">
+          
+                    
+                    </div>
+                </div>
+            </div>     
+                </div>
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="./bootstrap/js/fontawesome-all.js"></script>
+<script src="./bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="./bootstrap/js/popper.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./bootstrap/js/mdb.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

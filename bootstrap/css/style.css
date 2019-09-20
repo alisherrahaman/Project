@@ -1,0 +1,9 @@
+/* Your custom styles */
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    cursor: pointer;
+    border: 5px solid forestgreen;
+    background-color: orangered;
+}
